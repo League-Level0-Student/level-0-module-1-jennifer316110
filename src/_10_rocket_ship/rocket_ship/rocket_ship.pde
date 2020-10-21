@@ -3,7 +3,7 @@ int y = 600;
 
 void setup() {
 
-    background(0, 0, 40); size(800, 800);
+    background(0, 0, 40); size(500, 500);
 
 }
 
@@ -12,7 +12,7 @@ void draw() {
     fill(random(255), 0, 0);
     ellipse(x, y + 130, 90, 90);
     fill(248, 128, 0);
-    ellipse(x, y + 115, 70, 70);
+    ellipse(x, y + 95, 70, 70);
     fill(255, 153, 0);
     ellipse(x, y + 95, 35, 35);
     fill(100, 100, 100);
